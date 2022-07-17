@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Agilitty</h2>
+            <div class="toggle"></div>
+        </header>
+        <img src="wolf.home.jpg" ></img>
+
+        <div class="overlayy"></div>
+        <div class="texttt">
+            
+            <h2>SHIPA</h2>
+                <h3>FREIGHT</h3> 
+                <p>The digital logistics platform powered by Agility. Get real-time rates across thousands of tradelanes. Book and manage your shipments online</p>
+                    <br>
+                    <br>
+                    <h3>Get Instant Air & Ocean Freight Quotes</h3>
+                    <br>
+                    <div>
+                        
+                    </div>       
+                
+        </div> 
+
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="search.html">search</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="agilitty.html">Back</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+    </script>
+</body>
+</html>

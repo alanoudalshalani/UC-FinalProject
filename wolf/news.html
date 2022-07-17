@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>News</title>
+
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Agilitty</h2>
+            <div class="toggle"></div>
+        </header>
+        <div>
+            <img src="wolf.aboutt.jpg" ></img>
+        </div>
+
+        <div class="overlay5"></div>
+        <div class="textexn">
+            
+            <h3>EXPLORE</h3>
+                <p>our company</p>
+                <h3></h3>
+        </div> 
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="search.html">search</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="agilitty.html">Back</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+    </script>
+</body>
+</html>

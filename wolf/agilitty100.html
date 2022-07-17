@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <meta name="google-site" content="http://agilitty">
+        <title>Agilitty</title>
+
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Agilitty</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="wolf1.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+        <div class="text">
+            
+            <h3>We Build</h3>
+                <h3>Better </h3> 
+                <h3>Supply</h3>
+                <h3>Chains</h3>
+                <br>
+                
+                <p> Agility operates and invests in companies that 
+                   <br> transform supply 
+                    chains by making  
+                them smarter, <br> faster, cleaner, fairer and more efficient
+                </p>
+                
+                    <a href="explore.html">Explore</a>
+                
+                </div> 
+               
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="search.html">search</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="agilitty.html">Back</a></li>
+        </ul>
+    </div>
+    <script>
+ const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+
+</body>
+</html>
